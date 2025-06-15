@@ -30,7 +30,6 @@ class BinaryTree {
     }
 }
 
-
 let node2 = new Node(2);
 let node3 = new Node(3);
 let node1 = new Node(1, node2, node3);

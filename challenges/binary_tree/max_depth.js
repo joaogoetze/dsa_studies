@@ -1,4 +1,4 @@
-var Dequeue = require('dequeue');
+// Achar a profunidade máxima da binary_tree (DFS)
 
 class Node {
     constructor (value, left = null, right = null) {
@@ -15,13 +15,10 @@ class BinaryTree {
 
     maxDepth(root) {
         if (root === null) return 0;
-      
         const leftDepth = this.maxDepth(root.left);
         const rightDepth = this.maxDepth(root.right);
-      
         return Math.max(leftDepth, rightDepth) + 1;
-    }
-      
+    } 
 }
 
 const node4 = new Node(4);
