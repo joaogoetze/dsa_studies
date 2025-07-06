@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "dequeue": "^1.0.5"
+    "dequeue": "^1.0.5",
+    "heapq": "^0.0.3"
   }
 }
